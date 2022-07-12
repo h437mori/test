@@ -2,8 +2,7 @@
 #include <stdlib.h>
 #include <math.h>
 
-int myRoot(double x) // x の平方根を返す関数。x >= 0 ではないとき exit(1) とす\\
-る。
+int myRoot(double x) // x の平方根を返す関数。x >= 0 ではないとき exit(1) とする。
 {
   int y;
   if( x < 0 ){
@@ -37,7 +36,6 @@ int main(void)
   return 0;
 }
 
-// 定義されていない関数があったため#include <stdlib.h>と#include <math.h>を追加\
-//した。
+// 定義されていない関数があったため#include <stdlib.h>と#include <math.h>を追加した。
 // iに初期値が定義されていなかったためi=0を追加した。
 // x >= 0でないときにexit(1)とするためif文の条件はx < 0
